@@ -19,7 +19,6 @@
 
 □ XSS (Cross Site Scripting, 크로스 사이트 스크립팅)
 => 공격자가 웹 애플리케이션을 활용하여, 악성 스크립트가 사용자 측에서 응답 및 실행하도록 하는 공격이다.
-
 => XSS 공격의 종류로는 Stored XSS, Reflected XSS, DOM Based XSS가 있다.
 
 □ CSRF
