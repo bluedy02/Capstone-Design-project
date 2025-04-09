@@ -1,1 +1,17 @@
-□ XSS(Cross Site Scripting, 크로스 사이트 스크립팅)
+□ Command Injection
+=> 
+
+□ SQL Injection
+=> 
+
+□ Path Traversal (Directory traversal)
+=> 
+
+□ XSS (Cross Site Scripting, 크로스 사이트 스크립팅)
+=> 
+
+□ CSRF
+=>
+
+□ SSRF
+=> 
