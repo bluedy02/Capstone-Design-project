@@ -39,7 +39,7 @@
 => 사용자의 입력값에 대한 검증이 존재하지 않거나 미흡할때 발생함 
 
 □ Log Injection / Log Poisoning
-=> 
+=> 무효화된 사용자 입력을 로그 파일에 기록하면 공격자가 로그 항목을 위조하거나 악성 콘텐츠를 로그에 삽입할 수 있다.
 
 □ JSON/XML Injection
-=> 
+=> XML external entity Injection(XXE)공격은 external entity(외부 엔티티)를 이용한 공격으로 데이터 전송이 발생할 때 인젝션을 통하여 공격자가 시스템 파일을 볼 수 있거나 데이터들을 엿볼 수 있다. 
