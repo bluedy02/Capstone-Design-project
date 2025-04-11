@@ -1,1 +1,17 @@
+※ SQL Injection
+=> DB와 연동된 웹 애플리케이션에서 공격자가 입력폼 또는 URL 입력란에 SQL 구문을 삽입하여 DB를 조작할 수 있는 취약점.
+=> 클라이언트 측에서 입력된 신뢰할 수 없는 데이터가 SQL 쿼리 로직의 일부로 해석되어 DB에서 실행되는 공격
+
+※ SQL 공격 유형 
+1. Error based SQL Injection: 논리적 에러를 활용한 SQL 인젝션 
+=> 인증 우회를 위해 논리적 에러를 유도하는 방식의 공격 기법 
+
+2. Union SQL Injection: Union 명령어를 활용한 SQL 인젝션 
+=> 공격자가 추가적인 쿼리를 삽입하여 정보를 획득하는 기법으로, Union 명령어를 이용하여 여러 쿼리를 합치는 방식을 이용 
+
+3. Blind SQL Injection: Boolean based SQL
+=> 서버의 반응을 통해 정보를 얻는 SQL 공격 기법으로, 오류 메시지의 자세한 내용이 없어도 공격이 가능
+
+4. Stored Procedure SQL Injection 
+=> 저장 프로시저는 쿼리를 묶어 하나의 함수처럼 실행하는데, 공격자가 저장 프로시저에 악성 코드를 삽입하여 실행하는 SQL 공격 기법 
 
